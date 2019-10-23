@@ -6,3 +6,4 @@ rm -fr libstarshootg-$version
 rm -fr libstarshootg_*
 rm -fr libstarshootg-dev_*
 rm -f debfiles/compat
+rm -f debfiles/patches/*
