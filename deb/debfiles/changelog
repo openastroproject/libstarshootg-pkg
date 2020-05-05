@@ -1,5 +1,5 @@
-libstarshootg (1.38.14715-1) xenial; urgency=medium
+libstarshootg (1.46.16627-1) xenial; urgency=medium
 
   * Initial release
 
- -- James Fidell <james@openastroproject.org>  Tue, 10 Sep 2019 19:43:55 +0100
+ -- James Fidell <james@openastroproject.org>  Fri, 1 May 2020 23:41:55 +0100
