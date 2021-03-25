@@ -1,13 +1,13 @@
 %define debug_package %{nil}
 
 Name:           libstarshootg
-Version:        1.46.16627
+Version:        1.48.18421
 Release:        0
 Summary:        Orion Starshoot G camera support library
 License:	GPLv2+
 Prefix:         %{_prefix}
 Provides:       libstarshootg = %{version}-%{release}
-Obsoletes:      libstarshootg < 1.46.16627
+Obsoletes:      libstarshootg < 1.48.18421
 Source:         libstarshootg-%{version}.tar.gz
 Patch0:         pkg-config.patch
 Patch1:         udev-rules.patch
@@ -20,7 +20,7 @@ Summary:        Development files for %{name}
 Group:          Development/Libraries
 Requires:       %{name}%{?_isa} = %{version}-%{release}
 Provides:       libstarshootg-devel = %{version}-%{release}
-Obsoletes:      libstarshootg-devel < 1.46.16627
+Obsoletes:      libstarshootg-devel < 1.48.18421
 
 %description    devel
 The %{name}-devel package contains libraries and header files for
@@ -73,6 +73,6 @@ cp 70-orion-cameras.rules %{buildroot}/etc/udev/rules.d
 %{_libdir}/pkgconfig/*.pc
 
 %changelog
-* Mon May 18 2020 James Fidell <james@openastroproject.org> - 1.46.16627
+* Thu Mar 25 2021 James Fidell <james@openastroproject.org> - 1.48.18421-0
 - Initial RPM release
 
